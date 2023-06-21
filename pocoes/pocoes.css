@@ -1,11 +1,22 @@
 body{
-    background-image: url("ABOBOBO.png");
+    background-image: url("9df8095367db1fadea4d947a64ae28c6.gif");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+@font-face{
+    font-family: Barosa;
+    src: url(FontsFree-Net-Barosa-Regular.ttf);
+}
+
 h1{
-    color: aquamarine;
+    color: hsl(0, 0%, 99%);
+    font-family: Barosa;
+    font-size: 120px;
+    padding-left: 20px;
+    top: -50px;
+    position: absolute;
+    
 }
 
 h2{
