@@ -1,0 +1,157 @@
+body {
+    background-image: url(imagens/Fundo\ Pagina.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@font-face {
+    font-family: Barosa;
+    src: url(./fonte/FontsFree-Net-Barosa-Regular.ttf);
+}
+@font-face {
+    font-family: BrightRetro;
+    src: url(./fonte/BrightRetro.otf);
+}
+@font-face {
+    font-family: Catchy;
+    src: url(./fonte/CatchyMager-Normal.ttf);
+}    
+@font-face {
+    font-family: Horizon;
+    src: url(./fonte/Horizon.otf);
+}
+header h1 {
+    font-family: Barosa;
+    color: white;
+    font-size: 120px;
+    padding: 10px;
+    position: absolute;
+    top: -50px;
+    letter-spacing: 1.4px;
+}
+nav {
+    background-color: #39797D;
+    border-radius: 10px;
+    height: 60px;
+    display: absolute;
+    width: 67%;
+    margin-inline: 450px;
+}
+nav .box:hover{
+    color: rgb(97, 14, 14);
+}
+nav .box {
+    text-decoration: none;
+    margin-right: 100px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    font-family: BrightRetro;
+    color:white;
+    font-size: 20px;
+}
+nav #box1 {
+    display: inline-block;
+    background-color: #39797D;
+    height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 40px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+nav #box2 {
+    display: inline-block;
+    background-color: #39797D;
+    height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+nav #box3 {
+    display: inline-block;
+    background-color: #39797D;
+    height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+nav #box4 {
+    display: inline-block;
+    background-color: #39797D;
+    height: 40px;
+    padding-left: 50px;
+    padding-right: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 10px;
+    align-items: center;
+    position: absolute;
+}
+main p {
+    font-family: Catchy;
+    color: white;
+    font-size: 21px;
+}
+#nomesite {
+    color: white;
+    text-decoration: none;
+}
+#nomesite:hover {
+    color: rgb(97, 14, 14);
+}
+.p2 {
+    text-align: left;
+    font-size: 100px;
+    position: absolute;
+}
+.introducao {
+    width: 800px;
+    height: 150px;
+    margin-top: 200px;
+    margin-left: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-image: linear-gradient(to left, #041619a2,#295f69bd);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.chave {
+    display: block;
+    float: right;
+    margin-top: 130px;
+    margin-right: 200px;
+}
+a {
+    text-decoration: none;
+}
+button {
+    background-color: white;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 0 0 #1D292B;
+    margin-top: 100px;
+    margin-left: 600px;
+  }
+  
+button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 #1D292B;
+  };
+  
+button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 #1D292B;
+  };
+
