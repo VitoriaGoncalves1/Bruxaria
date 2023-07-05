@@ -1,0 +1,323 @@
+body{
+    background-image: url(./imagens/background_cristais.gif);
+    background-color:#261440 ;
+    background-repeat: no-repeat;
+    background-size: 1400px 650px;
+}
+@font-face{
+    font-family: Barosa;
+    src: url(./fonte/FontsFree-Net-Barosa-Regular.ttf);
+}
+@font-face {
+    font-family: Catchy;
+    src: url(./fonte/CatchyMager-Normal.ttf);
+} 
+@font-face {
+    font-family: BrightRetro;
+    src: url(./fonte/BrightRetro.otf);
+}
+header h1{
+    font-family: Barosa;
+    font-size: 120px;
+    color: white;
+    padding-left: 20px;
+    top: -50px;
+    position: absolute;
+}
+#impress {
+    font-family: Catchy;
+    font-size: 30px;
+    color: white;
+    margin-top: 160px;
+    padding-left: 20px;
+}
+#energia {
+    font-family: Catchy;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: -200px;
+    padding-left: 20px;
+
+}
+.firstimp {
+    color: white;
+    background-color: #2f6e8ece;
+    width: 860px;
+    border-radius: 20px;
+    height: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+#borda{
+    background-image: linear-gradient(to right, #582969d8, #0d5b55c4);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 1000px;
+    top: -300px;
+    position: relative;
+}
+#cristals{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.energia{
+    color: white;
+    position:relative;
+    top: -200px;
+    background-color: #28b2b4b0;
+    width: 860px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#elements{
+    position: relative;
+    top: -155px;
+    left:600px;
+    width: 245px;
+    height: 120px;
+}
+#usos {
+    font-family: BrightRetro;
+    font-size: 65px;
+    color: white;
+    position: relative;
+    top:-200px;
+    padding-left: 20px;
+}
+.usoscomuns {
+    color: white;
+    position:relative;
+    top: -250px;
+    width: 850px;
+    height: 200px;
+    text-align: justify;
+    padding-left: 20px;
+}
+#top {
+    position: relative;
+    font-family: BrightRetro;
+    font-size: 25px;
+    color: white;
+    top: -400px;
+    margin-left: 20px;
+}
+.limpeza{
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 10px;
+    width: 870px;
+    height: 70px;
+    position: relative;
+    top: -400px;
+    left: 20px;
+    padding-top: 1px;
+    padding-left: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#limp1 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -380px;
+    left: 270px;
+}
+#limp2 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -380px;
+    left: 270px;
+}
+#limp3 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -380px;
+    left: 270px;
+}
+#top1{
+    position: relative;
+    font-family: BrightRetro;
+    font-size: 25px;
+    color: white;
+    top: -380px;
+    margin-left: 20px;
+}
+.atracao{
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 10px;
+    width: 870px;
+    height: 70px;
+    position: relative;
+    top: -380px;
+    left: 20px;
+    padding-top: 0.5px;
+    padding-bottom: 10px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#amor1 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -360px;
+    left: 270px;
+}
+#amor2 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -360px;
+    left: 270px;
+}
+#amor3 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -360px;
+    left: 270px;
+}
+#top2{
+    position: relative;
+    font-family: BrightRetro;
+    font-size: 25px;
+    color: white;
+    top: -380px;
+    margin-left: 20px;
+}
+.saude{
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 10px;
+    width: 870px;
+    height: 125px;
+    position: relative;
+    top: -380px;
+    left: 20px;
+    padding-top: 0.5px;
+    padding-bottom: 10px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#saude1 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -360px;
+    left: 270px;
+}
+#saude2 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -360px;
+    left: 270px;
+}
+#saude3 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -360px;
+    left: 270px;
+}
+#top3{
+    position: relative;
+    font-family: BrightRetro;
+    font-size: 25px;
+    color: white;
+    top: -380px;
+    margin-left: 20px;
+}
+.prosperidade{
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 10px;
+    width: 870px;
+    height: 70px;
+    position: relative;
+    top: -400px;
+    left: 20px;
+    padding-top: 1px;
+    padding-left: 2px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+#prosperity1 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -360px;
+    left: 270px;
+}
+#prosperity2 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -360px;
+    left: 270px;
+}
+#prosperity3 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -360px;
+    left: 270px;
+}
+#top4{
+    position: relative;
+    font-family: BrightRetro;
+    font-size: 25px;
+    color: white;
+    top: -380px;
+    margin-left: 20px;
+}
+.lua{
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 10px;
+    width: 870px;
+    height: 150px;
+    position: relative;
+    top: -400px;
+    left: 20px;
+    padding-top: 1px;
+    padding-left: 2px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+#lua1 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -360px;
+    left: 270px;
+}
+#lua2 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -360px;
+    left: 270px;
+}
+#lua3 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -360px;
+    left: 270px;
+}

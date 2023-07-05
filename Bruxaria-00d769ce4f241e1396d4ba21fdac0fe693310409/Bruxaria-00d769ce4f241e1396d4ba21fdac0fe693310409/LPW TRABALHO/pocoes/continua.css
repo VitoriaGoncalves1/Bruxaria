@@ -1,0 +1,137 @@
+body{
+    background-image: url("imagens/ABOBOBO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3{
+    font-family: esthetique;
+    font-size: 19px;
+    color: rgb(188, 255, 149);
+    margin-top: 130px;
+    padding-left: 60px;
+    
+}
+
+
+
+.descrição{
+    text-align: justify;
+    color: aliceblue;
+    margin-left: 10px;
+    float: inline-start;
+    width: 700px;
+    margin-top: 10px;
+    background-color: rgba(41, 187, 66, 0.342);
+    border-radius: 25px 25px 25px 25px;
+    font-size: 19px;
+    padding: 1px;
+
+}
+
+#curat{
+    font-family: esthetique;
+    font-size: 18px;
+    color: rgb(188, 255, 149);
+    margin-top: -0.5px;
+    padding-left: 60px;
+}
+#calmaria{
+    font-family: esthetique;
+    font-size: 18px;
+    color: rgb(188, 255, 149);
+    margin-top: -0.5px;
+    padding-left: 60px;
+}
+
+.calm{
+    text-align: justify;
+    color: aliceblue;
+    margin-left: 10px;
+    float: inline-start;
+    width: 700px;
+    margin-top: 10px;
+    background-color: rgba(41, 187, 66, 0.342);
+    border-radius: 25px 25px 25px 25px;
+    font-size: 19px;
+    padding: 1px;
+
+}
+
+#amorosas{
+    font-family: esthetique;
+    font-size: 18px;
+    color: rgb(188, 255, 149);
+    margin-top: -0.5px;
+    padding-left: 60px;
+}
+
+.amor{
+    text-align: justify;
+    color: aliceblue;
+    margin-left: 10px;
+    float: inline-start;
+    width: 700px;
+    margin-top: 10px;
+    background-color: rgba(41, 187, 66, 0.342);
+    border-radius: 25px 25px 25px 25px;
+    font-size: 19px;
+    padding: 1px;
+}
+
+
+
+
+
+
+.button{
+    text-align: justify;
+    color: aliceblue;
+    margin-left: 10px;
+    float: inline-start;
+    width: 700px;
+    margin-top: 200px;
+    background-color: rgba(2, 73, 26, 0.87);
+    border-radius: 25px 25px 25px 25px;
+    font-size: 19px;
+    padding: 20px;
+}
+
+h1{
+    color: hsl(0, 0%, 99%);
+    font-family: Barosa;
+    font-size: 40px;
+    padding-left: 20px;
+    top: 50px;
+    position: absolute;
+    background-color: rgba(4, 73, 30, 0.425);
+    border-radius: 25px 25px 25px 25px;
+    padding: 1px;
+    
+}
+
+h1::selection{
+    background-color: rgb(4, 49, 10);
+    color: rgb(255, 255, 255);
+}
+
+#prospe{
+    font-family: esthetique;
+    font-size: 18px;
+    color: rgb(188, 255, 149);
+    margin-top: -0.5px;
+    padding-left: 60px;
+}
+
+.prosp{
+    text-align: justify;
+    color: aliceblue;
+    margin-left: 10px;
+    float: inline-start;
+    width: 700px;
+    margin-top: 10px;
+    background-color: rgba(41, 187, 66, 0.342);
+    border-radius: 25px 25px 25px 25px;
+    font-size: 19px;
+    padding: 1px;
+}
