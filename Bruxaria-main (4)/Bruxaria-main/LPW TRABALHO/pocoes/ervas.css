@@ -1,0 +1,152 @@
+body{
+    background-image: url("imagens/ABOBOBO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@font-face{
+    font-family: Barosa;
+    src: url(FontsFree-Net-Barosa-Regular.ttf);
+}
+
+h1{
+    color: hsl(0, 0%, 99%);
+    font-family: Barosa;
+    font-size: 120px;
+    padding-left: 20px;
+    top: -50px;
+    position: absolute;
+    
+}
+
+@font-face {
+    font-family: Catchy;
+    src: url(CatchyMager-Normal.ttf);
+}
+
+#titulos{
+    font-family: Catchy;
+    font-size: 20px;
+    color: white;
+    margin-top: -280px;
+    padding-left: 20px;
+
+}
+
+
+#pocoes{
+    text-align: justify;
+    color: aliceblue;
+    margin-left: 10px;
+    float: inline-start;
+    width: 700px;
+    margin-top: 200px;
+    background-color: rgba(9, 83, 64, 0.39);
+    border-radius: 25px 25px 25px 25px;
+    font-size: 19px;
+    padding: 20px;
+}
+
+.text{
+    padding-left: 0%;
+    display: flex;
+    justify-content: start;
+}
+
+#principais{
+    margin-top: 230px;
+    padding-left: 20px;
+}
+
+@font-face {
+    font-family: jordan;
+    src: url(jordan_2/Jordan.otf);
+}
+
+@font-face {
+    font-family: esthetique;
+    src: url(esthetique/esthetique.otf);
+}
+
+
+
+
+.escritas{
+    text-align: justify;
+    color: aliceblue;
+    margin-left: 10px;
+    float: inline-start;
+    width: 700px;
+    margin-top: 10px;
+    background-color: rgba(156, 1, 187, 0.377);
+    border-radius: 25px 25px 25px 25px;
+    font-size: 19px;
+    padding: 1px;
+
+}
+
+
+p{
+    font-family: esthetique;
+    font-size: 16px;
+    color: rgb(219, 208, 208);
+    margin-top: -0.5px;
+    padding-left: 60px
+}
+
+
+
+h1::selection{
+    background-color: rgb(41, 143, 54);
+    color: rgb(0, 0, 0);
+}
+
+h2::selection{
+    background-color: rgba(4, 100, 68, 0.849);
+    color: rgba(211, 75, 12, 0.856);
+}
+
+#linhaum{
+    
+    color: black;
+
+}
+table{
+    margin: 0 auto;
+}
+
+td, th{
+    text-align: left;
+
+}
+
+table, th, tr, td{
+    text-align: center;
+    border: 3px solid rgba(148, 5, 5, 0.726);
+    border-collapse: inherit;
+    background-color: rgba(4, 100, 68, 0.459);
+    
+     
+}
+
+td{
+    color: blanchedalmond;
+}
+
+.button{
+    
+    text-align: justify;
+    color: aliceblue;
+    margin-left: 10px;
+    float: inline-start;
+    width: 700px;
+    margin-top: 200px;
+    background-color: rgba(2, 73, 26, 0.87);
+    border-radius: 25px 25px 25px 25px;
+    font-size: 19px;
+    padding: 20px;
+}
+
+
+
+
+    
