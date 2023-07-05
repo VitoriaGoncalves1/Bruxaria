@@ -1,7 +1,8 @@
 body{
     background-image: url("imagens/9df8095367db1fadea4d947a64ae28c6.gif");
+    background-color:#682435 ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1400px 650px;
 }
 
 @font-face{
@@ -32,7 +33,16 @@ h1{
     padding-left: 20px;
 
 }
+h3{
+    font-family: esthetique;
+    font-size: 20px;
+    color: rgb(219, 208, 208);
 
+}
+#t1{
+    position: relative;
+    top: -150px;
+}
 
 #pocoes{
     text-align: justify;
@@ -85,10 +95,12 @@ h1{
     margin-top: 10px;
     background-color: rgba(249, 34, 45, 0.342);
     border-radius: 25px 25px 25px 25px;
-    font-size: 19px;
+    font-size: 17px;
     padding: 1px;
-
+    padding-left: 10px;
+    padding-right:10px;
 }
+
 
 .escritas{
     text-align: justify;
@@ -101,7 +113,8 @@ h1{
     border-radius: 25px 25px 25px 25px;
     font-size: 19px;
     padding: 1px;
-
+    position: relative;
+    top: 50px
 }
 
 #cura{
@@ -119,10 +132,11 @@ h1{
 
 #curat{
     font-family: esthetique;
-    font-size: 16px;
+    font-size: 20px;
     color: rgb(219, 208, 208);
-    margin-top: -0.5px;
+    margin-top: 10px;
     padding-left: 60px;
+
 }
 
 p{
@@ -133,17 +147,22 @@ p{
     padding-left: 60px
 }
 
-.transf{
+.trans{
+    background-color: rgba(249, 34, 45, 0.342);
+    border-radius: 25px;
+    color: white;
     text-align: justify;
-    color: aliceblue;
     margin-left: 10px;
     float: inline-start;
     width: 700px;
-    margin-top: 100px;
-    background-color: rgba(156, 1, 187, 0.377);
-    border-radius: 25px 25px 25px 25px;
+    margin-top: 10px;
+    border-radius: 25px;
     font-size: 19px;
-    padding: 30px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    position: relative;
+    top: -150px;
 }
 
 h1::selection{
@@ -155,4 +174,48 @@ h2::selection{
     background-color: rgb(124, 9, 9);
     color: rgb(178, 95, 255);
 }
+#tranf1{
+    width: 150px;
+    height: 150px;
+    position:relative;
+    top: -350px;
+    left: 800px;
+}
 
+#tranf2{
+    width: 150px;
+    height: 150px;
+    position:relative;
+    top: -350px;
+    left: 900px;
+}
+#cura1{
+    width: 150px;
+    height: 150px;
+    position:relative;
+    left: 800px;
+    top: -230px;
+}
+
+#cura2{
+    width: 150px;
+    height: 150px;
+    position:relative;
+    left: 900px;
+    top: -230px;
+}
+#pocao1{
+    width: 150px;
+    height: 150px;
+    position:relative;
+    left: 800px;
+    top: -150px;
+}
+
+#pocao2{
+    width: 150px;
+    height: 150px;
+    position:relative;
+    left: 900px;
+    top: -150px;
+}
